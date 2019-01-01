@@ -26,11 +26,11 @@ Random rnd=new Random();
        num=rnd.nextInt(3)+1;
        switch (num){
            case 1: ib.setImageResource(R.drawable.num1);
-                   iv.setImageResource(R.drawable.op1);
+                   iv.setImageResource(R.drawable.op1); break;
            case 2: ib.setImageResource(R.drawable.num2);
-                   iv.setImageResource(R.drawable.op2);
+                   iv.setImageResource(R.drawable.op2); break;
            case 3: ib.setImageResource(R.drawable.num3);
-                   iv.setImageResource(R.drawable.op3);
+                   iv.setImageResource(R.drawable.op3); break;
        }
     }
 }
